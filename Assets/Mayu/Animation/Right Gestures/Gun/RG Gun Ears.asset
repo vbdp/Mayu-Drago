@@ -55,8 +55,16 @@ BlendTree:
   m_Name: RG Gun Ears
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 20600000, guid: 09ac09e604d96da46bb2e3e9ac53967d, type: 2}
+    m_Motion: {fileID: 7400000, guid: be984ddda3c77404b927ffd292f72f21, type: 2}
     m_Threshold: 0
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: FXWeight
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 20600000, guid: 97ab452a1f5b7a340836d2db0cdb962e, type: 2}
+    m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -65,7 +73,7 @@ BlendTree:
   m_BlendParameter: Blink_Left
   m_BlendParameterY: VelocityZ
   m_MinThreshold: 0
-  m_MaxThreshold: 0
+  m_MaxThreshold: 1
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 4

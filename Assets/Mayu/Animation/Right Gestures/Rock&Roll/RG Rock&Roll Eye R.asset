@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!206 &-8142216386313941626
+BlendTree:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Eye Blend
+  m_Childs:
+  - serializedVersion: 2
+    m_Motion: {fileID: 20600000, guid: 34a3b40f02b74614ea1c02b16e0b9e05, type: 2}
+    m_Threshold: 0
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: FXWeight
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 20600000, guid: 8e6297ae0d8863049a2a6691caf3e637, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: FXWeight
+    m_Mirror: 0
+  m_BlendParameter: GestureLeft/Proxy/Idle
+  m_BlendParameterY: Blend
+  m_MinThreshold: 0
+  m_MaxThreshold: 1
+  m_UseAutomaticThresholds: 1
+  m_NormalizedBlendValues: 0
+  m_BlendType: 4
 --- !u!206 &-7130350191003207906
 BlendTree:
   m_ObjectHideFlags: 1
@@ -55,28 +86,28 @@ BlendTree:
   m_Name: RG Rock&Roll Eye R
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 7edbea302ed5fcb4c8566ce22f6875c2, type: 2}
+    m_Motion: {fileID: 20600000, guid: 643fb3f8f25b5224a90936750650a4c8, type: 2}
     m_Threshold: 0
-    m_Position: {x: -1, y: 0}
+    m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: FXWeight
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 20600000, guid: 8e6297ae0d8863049a2a6691caf3e637, type: 2}
+    m_Motion: {fileID: -8142216386313941626}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: FXWeight
     m_Mirror: 0
-  m_BlendParameter: FXWeight
+  m_BlendParameter: GestureLeft/Proxy/Idle
   m_BlendParameterY: VelocityZ
   m_MinThreshold: 0
   m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 1
+  m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
-  m_BlendType: 4
+  m_BlendType: 0
 --- !u!206 &8506493275345567874
 BlendTree:
   m_ObjectHideFlags: 1

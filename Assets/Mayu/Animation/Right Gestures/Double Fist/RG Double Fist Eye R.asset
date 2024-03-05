@@ -55,7 +55,7 @@ BlendTree:
   m_Name: RG Double Fist Eye R
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 051fd8b21cb08844091cab223c4ef9ec, type: 2}
+    m_Motion: {fileID: 7400000, guid: ab19b0907afd48449a4da2bb83b376ca, type: 2}
     m_Threshold: 0
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1

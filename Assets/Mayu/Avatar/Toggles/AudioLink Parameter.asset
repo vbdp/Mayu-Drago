@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AudioLink Parameter
   m_EditorClassIdentifier: 
   parameters:
-  - name: Mayu/Audio
+  - name: Mayu/Audiolink
     valueType: 2
     saved: 1
     defaultValue: 1

@@ -55,7 +55,7 @@ BlendTree:
   m_Name: LG Victory Mouth
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: bd74244f8453ab1478eda4c9016417e6, type: 2}
+    m_Motion: {fileID: 20600000, guid: f7fe420e4f28cf04ab981a5fc59868ce, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1

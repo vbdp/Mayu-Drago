@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7459818388005884726}
-  - component: {fileID: 731041318101070187}
+  - component: {fileID: -8469763634696126527}
+  - component: {fileID: 8672284883302279339}
   m_Layer: 0
   m_Name: Female Toggle
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &731041318101070187
+--- !u!114 &-8469763634696126527
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,23 +45,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
-  config:
-    features:
-    - rid: 0
-    - rid: 1
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.754.0
   somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672688
   references:
     version: 2
     RefIds:
-    - rid: 0
+    - rid: 3147176312603672688
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
         name: Customize/Female
         state:
           actions:
-          - rid: 3
+          - rid: 3147176312603672689
           ResetMePlease2: 0
         saved: 1
         slider: 0
@@ -109,7 +112,40 @@ MonoBehaviour:
         globalParam: Mayu/FemaleBreasts
         holdButton: 0
         invertRestLogic: 0
-    - rid: 1
+    - rid: 3147176312603672689
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        blendShape: Female Chest
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &8672284883302279339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4483418717182028859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.754.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672690
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672690
       type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 4
@@ -156,13 +192,3 @@ MonoBehaviour:
         submenu: 
         removePrefixes: []
         addPrefix: 
-    - rid: 3
-      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 0
-        desktopActive: 0
-        androidActive: 0
-        blendShape: Female Chest
-        blendShapeValue: 100
-        renderer: {fileID: 0}
-        allRenderers: 1

@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7459818388005884726}
-  - component: {fileID: 731041318101070187}
+  - component: {fileID: 1745952889791400111}
+  - component: {fileID: 5251919276405836425}
   m_Layer: 0
   m_Name: AudioLink Toggle
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &731041318101070187
+--- !u!114 &1745952889791400111
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,24 +45,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
-  config:
-    features:
-    - rid: 0
-    - rid: 1
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
   somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672682
   references:
     version: 2
     RefIds:
-    - rid: 0
+    - rid: 3147176312603672682
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Interaction/Audiolink
+        name: Customize/Audiolink
         state:
           actions:
-          - rid: 2
-          - rid: 6798555708894740514
+          - rid: 3147176312603672683
           ResetMePlease2: 0
         saved: 1
         slider: 0
@@ -107,10 +109,45 @@ MonoBehaviour:
         simpleOutTransition: 1
         defaultSliderValue: 0
         useGlobalParam: 1
-        globalParam: Mayu/Audio
+        globalParam: Mayu/Audiolink
         holdButton: 0
         invertRestLogic: 0
-    - rid: 1
+    - rid: 3147176312603672683
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        renderer: {fileID: 0}
+        affectAllMeshes: 1
+        propertyName: _AudioLinkAnimToggle
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &5251919276405836425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4483418717182028859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672684
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672684
       type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 4
@@ -157,23 +194,3 @@ MonoBehaviour:
         submenu: 
         removePrefixes: []
         addPrefix: 
-    - rid: 2
-      type: {class: FxFloatAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 0
-        desktopActive: 0
-        androidActive: 0
-        name: Mayu/Audiolink
-        value: 1
-    - rid: 6798555708894740514
-      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 0
-        desktopActive: 0
-        androidActive: 0
-        renderer: {fileID: 0}
-        affectAllMeshes: 1
-        propertyName: _AudioLinkAnimToggle
-        value: 1
-        valueVector: {x: 0, y: 0, z: 0, w: 0}
-        valueColor: {r: 1, g: 1, b: 1, a: 1}

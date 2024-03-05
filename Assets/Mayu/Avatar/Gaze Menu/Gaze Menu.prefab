@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6251334998806802760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 658026909849039930}
+  - component: {fileID: 2958029047640994087}
+  - component: {fileID: 6174003796331746305}
+  m_Layer: 0
+  m_Name: Gaze Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &658026909849039930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251334998806802760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2958029047640994087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251334998806802760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.754.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6798555708894740492
+  references:
+    version: 2
+    RefIds:
+    - rid: 6798555708894740492
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 9c47987d4a46208468f1ee863b3d1e34|Assets/Mayu/Avatar/Gaze Menu/Gaze
+              FX Test.controller
+            objRef: {fileID: 9100000, guid: 9c47987d4a46208468f1ee863b3d1e34, type: 2}
+          type: 5
+          ResetMePlease2: 0
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: cfd35c39488943c40822474e9451c313|Assets/Mayu/Avatar/Gaze Menu/Gaze
+              Control.asset
+            objRef: {fileID: 11400000, guid: cfd35c39488943c40822474e9451c313, type: 2}
+          prefix: Customize/Additional
+          ResetMePlease2: 0
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: fef54a43fbfbf9446ab6043d8835fb8c|Assets/Mayu/Avatar/Gaze Menu/Gaze
+              Parameters.asset
+            objRef: {fileID: 11400000, guid: fef54a43fbfbf9446ab6043d8835fb8c, type: 2}
+          ResetMePlease2: 0
+        smoothedPrms: []
+        globalParams:
+        - '*'
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        useSecurityForToggle: 0
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+--- !u!114 &6174003796331746305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251334998806802760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.754.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176344004067362
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176344004067362
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize/Additional
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 8d9d9cdfc94539d47b56f10e4cb6ddd6|Assets/Mayu/Icons/Additional.png
+          objRef: {fileID: 2800000, guid: 8d9d9cdfc94539d47b56f10e4cb6ddd6, type: 3}

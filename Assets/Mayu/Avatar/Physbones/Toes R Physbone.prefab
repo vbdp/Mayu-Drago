@@ -132,6 +132,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   colliders:
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   limitType: 3
   maxAngleX: 20
   maxAngleXCurve:
@@ -198,7 +200,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   isAnimated: 1
-  resetWhenDisabled: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5

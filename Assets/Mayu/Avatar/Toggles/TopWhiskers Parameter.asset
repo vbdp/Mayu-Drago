@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TopWhiskers Parameter
   m_EditorClassIdentifier: 
   parameters:
-  - name: Mayu/TopWhiskers
+  - name: Mayu/WhiskersTop
     valueType: 2
     saved: 1
     defaultValue: 0

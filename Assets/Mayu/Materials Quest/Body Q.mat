@@ -11,9 +11,11 @@ Material:
   m_Shader: {fileID: 4800000, guid: 0b7113dea2069fc4e8943843eff19f70, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _EMISSION
   m_InvalidKeywords:
   - _METALLICGLOSSMAP
+  - _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -107,7 +109,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 78875e03daff66b4db17b96b83e31122, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClearCoatFallback:
@@ -187,7 +189,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 715e791dfa065b840a9a7b1793dc846b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailTex:
@@ -227,7 +229,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 4f49dcc6fb9a78f4880af49a7bfdf7e9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap1:
@@ -363,7 +365,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 27d40c0b289c22342a148f803d1da795, type: 3}
+        m_Texture: {fileID: 2800000, guid: c4b148c05aaf0bd49b8d55d9cdf596fa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -391,7 +393,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: fd8e513e89392fc4c9fd6477f3d71e06, type: 3}
+        m_Texture: {fileID: 2800000, guid: dd71b25813cff144d8577303a9b350ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicMask:
@@ -867,7 +869,7 @@ Material:
     - _BulgeOffset: 0
     - _BulgePower: 0
     - _BumpMapUV: 0
-    - _BumpScale: 0
+    - _BumpScale: 1
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
     - _ClearCoatBRDF: 0
@@ -1330,7 +1332,7 @@ Material:
     - _GlitterUV: 0
     - _GlitterUseSurfaceColor: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.1
+    - _Glossiness: 0.25
     - _GlossyReflections: 1
     - _GrabBlurDirections: 4
     - _GrabBlurDistance: 0
@@ -1850,7 +1852,7 @@ Material:
     - _Tweak_RimLightMaskLevel: 0
     - _UDIMDiscardMode: 1
     - _UDIMDiscardUV: 0
-    - _UVSec: 0
+    - _UVSec: 1
     - _Unlit_Intensity: 1
     - _UseLightColor: 1
     - _Use_1stAs2nd: 0
@@ -2348,7 +2350,7 @@ Material:
     - _EmissionAL3StrengthMod: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionCenterOutAddAudioLink: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionCenterOutAddAudioLink1: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 0.3372549, g: 0.3372549, b: 0.3372549, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor2: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor3: {r: 1, g: 1, b: 1, a: 1}

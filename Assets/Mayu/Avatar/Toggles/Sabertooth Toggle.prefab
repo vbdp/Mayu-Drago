@@ -9,8 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1993463978300631368}
-  - component: {fileID: 1906534209872834147}
   - component: {fileID: 2346396745526046996}
+  - component: {fileID: 5367924424965847430}
+  - component: {fileID: -7500515964342770208}
   m_Layer: 0
   m_Name: Sabertooth Toggle
   m_TagString: Untagged
@@ -25,14 +26,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7636448402912424326}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1906534209872834147
+--- !u!114 &2346396745526046996
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,23 +46,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
-  config:
-    features:
-    - id: 0
-    - id: 1
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
   somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 0
   references:
-    version: 1
-    00000000:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize/Head
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9382d9ea9a13c4249a09be440fbfb771|Assets/Mayu/Icons/Head.png
+          objRef: {fileID: 2800000, guid: 9382d9ea9a13c4249a09be440fbfb771, type: 3}
+--- !u!114 &5367924424965847430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636448402912424326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672697
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672697
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
         name: Customize/Head/Sabertooth
         state:
           actions:
-          - id: 2
-          - id: 3
+          - rid: 3147176312603672698
+          - rid: 3147176312603672699
           ResetMePlease2: 0
         saved: 1
         slider: 0
@@ -109,7 +148,50 @@ MonoBehaviour:
         globalParam: Mayu/Sabertooth
         holdButton: 0
         invertRestLogic: 0
-    00000001:
+    - rid: 3147176312603672698
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        blendShape: Sabertooth L
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 3147176312603672699
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        blendShape: Sabertooth R
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &-7500515964342770208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636448402912424326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672700
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672700
       type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 4
@@ -156,53 +238,3 @@ MonoBehaviour:
         submenu: 
         removePrefixes: []
         addPrefix: 
-    00000002:
-      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 0
-        desktopActive: 0
-        androidActive: 0
-        blendShape: Sabertooth L
-        blendShapeValue: 100
-        renderer: {fileID: 0}
-        allRenderers: 1
-    00000003:
-      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 0
-        desktopActive: 0
-        androidActive: 0
-        blendShape: Sabertooth R
-        blendShapeValue: 100
-        renderer: {fileID: 0}
-        allRenderers: 1
---- !u!114 &2346396745526046996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7636448402912424326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 2
-  config:
-    features:
-    - id: 0
-  somethingIsBroken: 0
-  references:
-    version: 1
-    00000000:
-      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 1
-        path: Customize/Head
-        icon:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 9382d9ea9a13c4249a09be440fbfb771|Assets/Mayu/Icons/Head.png
-          objRef: {fileID: 2800000, guid: 9382d9ea9a13c4249a09be440fbfb771, type: 3}

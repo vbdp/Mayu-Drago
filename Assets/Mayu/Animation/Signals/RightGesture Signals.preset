@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RightGesture Signals
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].name
+    value: GestureRight/Proxy/Idle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].source
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].valueMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].valueMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].chance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].convertRange
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].sourceMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].sourceMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].destMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[0].destMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].name
+    value: GestureRight/Proxy/Point
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].source
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].valueMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].valueMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].chance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].convertRange
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].sourceMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].sourceMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].destMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[1].destMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].name
+    value: GestureRight/Proxy/Victory
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].source
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].valueMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].valueMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].chance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].convertRange
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].sourceMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].sourceMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].destMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[2].destMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].name
+    value: GestureRight/Proxy/Rock&Roll
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].source
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].valueMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].valueMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].chance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].convertRange
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].sourceMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].sourceMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].destMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[3].destMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].name
+    value: GestureRight/Proxy/Gun
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].source
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].valueMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].valueMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].chance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].convertRange
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].sourceMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].sourceMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].destMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[4].destMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].name
+    value: GestureRight/Proxy/ThumbsUp
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].source
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].valueMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].valueMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].chance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].convertRange
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].sourceMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].sourceMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].destMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[5].destMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].name
+    value: GestureRight/Proxy/DoubleFist
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].source
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].valueMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].valueMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].chance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].convertRange
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].sourceMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].sourceMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].destMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[6].destMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].name
+    value: GestureRight/Proxy/DoubleOpen
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].source
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].valueMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].valueMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].chance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].convertRange
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].sourceMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].sourceMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].destMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[7].destMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].name
+    value: GestureRight/Proxy/DoubleGun
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].source
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].valueMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].valueMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].chance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].convertRange
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].sourceMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].sourceMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].destMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: parameters.Array.data[8].destMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: localOnly
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: debugString
+    value: 
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

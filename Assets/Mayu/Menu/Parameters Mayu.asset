@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Parameters Mayu
   m_EditorClassIdentifier: 
   parameters:
+  - name: Mayu/Speak
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+    networkSynced: 1
   - name: Mayu/LockGestures
     valueType: 2
     saved: 1
@@ -40,13 +45,13 @@ MonoBehaviour:
     networkSynced: 1
   - name: Mayu/FloatX
     valueType: 1
-    saved: 0
+    saved: 1
     defaultValue: 0
     networkSynced: 1
   - name: Mayu/FloatY
     valueType: 1
-    saved: 0
-    defaultValue: 0
+    saved: 1
+    defaultValue: 0.25
     networkSynced: 1
   - name: Sync/Blink
     valueType: 2

@@ -55,7 +55,7 @@ BlendTree:
   m_Name: RG Victory Eye L Blink
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 20600000, guid: 33188514512e06241bf2c98274f207c8, type: 2}
+    m_Motion: {fileID: 7400000, guid: 3d0b615cb66234b4fa34d1ff94c2b9ff, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -63,7 +63,7 @@ BlendTree:
     m_DirectBlendParameter: FXWeight
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 4139edbb5afde3f4189b8555d213c938, type: 2}
+    m_Motion: {fileID: 7400000, guid: 08208021f4016bf43a91fb5f2f7b3682, type: 2}
     m_Threshold: 1
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1

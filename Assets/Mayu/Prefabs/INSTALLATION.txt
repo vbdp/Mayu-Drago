@@ -1,15 +1,24 @@
 HOODIE INSTALLATION
 
-    Drag and drop the Hoodie prefab into the main avatar game object. Setup the colliders for the Hoodie physbones to ones already included with the avatar:
-        - Physbones / Hood Physbone @ VRC Phys Bone / Collision / Colliders / Element 0 -> Head Collider
-        - Physbones / String_L Physbone @ VRC Phys Bone / Collision / Colliders / Element 0 -> Floor Collider
-        - Physbones / String_R Physbone @ VRC Phys Bone / Collision / Colliders / Element 0 -> Floor Collider
-        - Physbones / Collar Physbone @ Bell Physbone - VRC Phys Bone / Collision / Colliders -> Element 0 -> Chest Collider
+	Drag and drop the Hoodie prefab into the Mayu game object. Setup the colliders for the Hoodie physbones to ones already included with the avatar:
+		- Physbones / Hood Physbone @ VRC Phys Bone / Collision / Colliders / Element 0 -> Head Collider
+		- Physbones / String_L Physbone @ VRC Phys Bone / Collision / Colliders / Element 0 -> Floor Collider
+		- Physbones / String_R Physbone @ VRC Phys Bone / Collision / Colliders / Element 0 -> Floor Collider
+		- Physbones / Collar Physbone @ Bell Physbone - VRC Phys Bone / Collision / Colliders -> Element 0 -> Chest Collider
+
+COLLAR INSTALLATION
+
+	Drag and drop the Collar prefab into the Mayu game object. Setup the colliders for the Collar physbones to ones already included with the avatar:
+		- Physbones / Collar Physbone @ Bell Physbone - VRC Phys Bone / Collision / Colliders -> Element 0 -> Chest Collider
 
 PANTS INSTALLATION
 
-    Drag and drop the Pants prefab into the main avatar game object.
+	Drag and drop the Pants prefab into the Mayu game object.
 
 WARMERS INSTALLATION
 
-    Drag and drop the Warmers prefab into the main avatar game object.
+	Drag and drop the Warmers prefab into the Mayu game object.
+
+UE FACE TRACKING INSTALLATION
+
+	Drag and drop the UE Face Tracking prefab into the Avatar game object.

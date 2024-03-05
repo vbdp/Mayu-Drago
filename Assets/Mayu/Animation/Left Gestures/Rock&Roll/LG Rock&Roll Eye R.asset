@@ -55,7 +55,7 @@ BlendTree:
   m_Name: LG Rock&Roll Eye R
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: b864ce800e1edc7489357a67f4ce1670, type: 2}
+    m_Motion: {fileID: 20600000, guid: c73904f6e1a265b41aa2f1b619c92876, type: 2}
     m_Threshold: 0
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1

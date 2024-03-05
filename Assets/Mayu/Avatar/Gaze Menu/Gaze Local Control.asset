@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Gaze Local Control
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Jito
+    icon: {fileID: 2800000, guid: 299f8e29105351c46a781ea1ef5f663e, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Gaze/Type
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Hostile
+    icon: {fileID: 2800000, guid: 1f75de02436618f4395467eef5092cb5, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Gaze/Type
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Howawa
+    icon: {fileID: 2800000, guid: 5bd2174a64d8d134f9111e345db969dd, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Gaze/Type
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Wail
+    icon: {fileID: 2800000, guid: c0638340c530bb343bbd04e3f4a5a277, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Gaze/Type
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Wink
+    icon: {fileID: 2800000, guid: def7d49a879cc10428f0b49a72204342, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Gaze/Type
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Strength
+    icon: {fileID: 2800000, guid: 34e49a31f0afc664eb0743b55f3e5bce, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Mayu/Gaze/Strength
+    labels: []

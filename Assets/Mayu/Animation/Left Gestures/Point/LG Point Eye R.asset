@@ -55,7 +55,7 @@ BlendTree:
   m_Name: LG Point Eye R
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: f8ec0ef8391d7d840a5acf397b79d35b, type: 2}
+    m_Motion: {fileID: 20600000, guid: 25cf7b7214be8af4bb5f27d435929ecc, type: 2}
     m_Threshold: 0
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1

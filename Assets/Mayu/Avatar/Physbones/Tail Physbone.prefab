@@ -237,7 +237,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   isAnimated: 1
-  resetWhenDisabled: 1
+  resetWhenDisabled: 0
   parameter: Tail/
   showGizmos: 1
   boneOpacity: 0.5

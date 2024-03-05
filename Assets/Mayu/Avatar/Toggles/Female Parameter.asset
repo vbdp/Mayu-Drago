@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Female Parameter
   m_EditorClassIdentifier: 
   parameters:
-  - name: Mayu/Female
+  - name: Mayu/FemaleBreasts
     valueType: 2
     saved: 1
     defaultValue: 0

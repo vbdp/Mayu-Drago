@@ -54,7 +54,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 0
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 4302682143293620411}
   ignoreTransforms: []
   endpointPosition: {x: 0, y: 0.03, z: 0}
   multiChildType: 0

@@ -55,8 +55,8 @@ BlendTree:
   m_Name: LG Pupils
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 648d07b8dbaa56d48a4870ae837b8ab8, type: 2}
-    m_Threshold: 0
+    m_Motion: {fileID: 20600000, guid: fc24d260d20ac3f4c82c2e3c9387b75d, type: 2}
+    m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -64,7 +64,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 20600000, guid: e0e87ec09c1c00b49922159256fb6734, type: 2}
-    m_Threshold: 1
+    m_Threshold: 2
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -72,7 +72,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 20600000, guid: ee9f88178ad3f9c46934dab80f133324, type: 2}
-    m_Threshold: 2
+    m_Threshold: 3
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -80,7 +80,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 20600000, guid: e4e71f72ee1191a46bccd69cb4fd138f, type: 2}
-    m_Threshold: 3
+    m_Threshold: 4
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -88,7 +88,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 20600000, guid: e3ce11472a28424418f452701957981d, type: 2}
-    m_Threshold: 4
+    m_Threshold: 5
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -96,7 +96,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 20600000, guid: 22c2934ec7ef3f34abe4835153d02e48, type: 2}
-    m_Threshold: 5
+    m_Threshold: 6
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -104,8 +104,8 @@ BlendTree:
     m_Mirror: 0
   m_BlendParameter: v2/EyeLidLeft
   m_BlendParameterY: VelocityZ
-  m_MinThreshold: 0
-  m_MaxThreshold: 5
+  m_MinThreshold: 1
+  m_MaxThreshold: 6
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 4

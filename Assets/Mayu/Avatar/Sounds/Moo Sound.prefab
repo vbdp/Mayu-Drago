@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2092662408465503503}
   - component: {fileID: 2092662408465503501}
   - component: {fileID: 2092662408465503500}
-  - component: {fileID: 1881142066164513181}
+  - component: {fileID: -4775854999272930979}
+  - component: {fileID: -4411958227054848933}
   m_Layer: 0
   m_Name: Moo Sound
   m_TagString: Untagged
@@ -166,7 +167,7 @@ MonoBehaviour:
   VolumetricRadius: 0
   EnableSpatialization: 1
   UseAudioSourceVolumeCurve: 1
---- !u!114 &1881142066164513181
+--- !u!114 &-4775854999272930979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,41 +179,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
-  config:
-    features:
-    - rid: 6798555787971526656
-    - rid: 6798555787971526657
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
   somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672679
   references:
     version: 2
     RefIds:
-    - rid: 6798555787971526656
+    - rid: 3147176312603672679
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
-        version: 5
+        version: 6
         linkMode: 4
         propBone: {fileID: 2092662408465503502}
-        boneOnAvatar: 10
-        bonePathOnAvatar: 
+        linkTo:
+        - useBone: 1
+          bone: 10
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
         keepBoneOffsets2: 0
         removeBoneSuffix: 
-        fallbackBones: 
         skinRewriteScalingFactor: 0
         scalingFactorPowersOf10Only: 1
         useOptimizedUpload: 0
         useBoneMerging: 0
         keepBoneOffsets: 0
         physbonesOnAvatarBones: 0
-    - rid: 6798555787971526657
+        boneOnAvatar: 10
+        bonePathOnAvatar: 
+        fallbackBones: 
+--- !u!114 &-4411958227054848933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092662408465503502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672680
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672680
       type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 0
         action:
           actions:
-          - rid: 6798555787971526658
+          - rid: 3147176312603672681
           ResetMePlease2: 0
-    - rid: 6798555787971526658
+    - rid: 3147176312603672681
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 1

@@ -23,22 +23,24 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370766183453187978}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 370766183962075602}
   - {fileID: 370766182898662239}
   - {fileID: 370766184256287688}
   - {fileID: 370766184762732837}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1003168594251926245
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 370766183453187977}
     m_Modifications:
     - target: {fileID: 634657233010211776, guid: 1f710f19caca64e4a9b681903ef38331,
@@ -96,12 +98,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 634657233010211776, guid: 1f710f19caca64e4a9b681903ef38331,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 634657233010211779, guid: 1f710f19caca64e4a9b681903ef38331,
         type: 3}
       propertyPath: m_Name
       value: Collar Physbone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f710f19caca64e4a9b681903ef38331, type: 3}
 --- !u!4 &370766184762732837 stripped
 Transform:
@@ -114,6 +124,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 370766183453187977}
     m_Modifications:
     - target: {fileID: 7787473205821428291, guid: 504c0b7675394604c8a6f04bfcab4b69,
@@ -171,12 +182,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7787473205821428291, guid: 504c0b7675394604c8a6f04bfcab4b69,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7787473205821428412, guid: 504c0b7675394604c8a6f04bfcab4b69,
         type: 3}
       propertyPath: m_Name
       value: String_L Physbone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504c0b7675394604c8a6f04bfcab4b69, type: 3}
 --- !u!4 &370766182898662239 stripped
 Transform:
@@ -189,6 +208,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 370766183453187977}
     m_Modifications:
     - target: {fileID: 8045479509159860530, guid: efeb20ed41d00944e8b7c2c5033d66d9,
@@ -251,7 +271,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8045479509159860531, guid: efeb20ed41d00944e8b7c2c5033d66d9,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efeb20ed41d00944e8b7c2c5033d66d9, type: 3}
 --- !u!4 &370766183962075602 stripped
 Transform:
@@ -264,6 +292,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 370766183453187977}
     m_Modifications:
     - target: {fileID: 9103995099886263472, guid: 5eb561869f4d39b4da4b26206f01fb36,
@@ -326,7 +355,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9103995099886263473, guid: 5eb561869f4d39b4da4b26206f01fb36,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5eb561869f4d39b4da4b26206f01fb36, type: 3}
 --- !u!4 &370766184256287688 stripped
 Transform:

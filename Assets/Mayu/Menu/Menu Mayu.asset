@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: Locomotion
-    icon: {fileID: 2800000, guid: 82ab53a641de2f1448023168217721eb, type: 3}
+    icon: {fileID: 0}
     type: 103
     parameter:
       name: 
@@ -70,6 +70,6 @@ MonoBehaviour:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 0}
+    subMenu: {fileID: 11400000, guid: d5d433390a7c4264baa8aac44573ebd4, type: 2}
     subParameters: []
     labels: []

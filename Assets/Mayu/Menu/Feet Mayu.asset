@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: Right
-    icon: {fileID: 2800000, guid: 42d6a55d51f3d9a4785b6f84ec25e779, type: 3}
+    icon: {fileID: 2800000, guid: ce46545eec09f4e479cdbdbe697af6ee, type: 3}
     type: 201
     parameter:
       name: Mayu/Feet/RPuppet
@@ -34,7 +34,7 @@ MonoBehaviour:
     - name: 
       icon: {fileID: 0}
   - name: Both
-    icon: {fileID: 2800000, guid: 481eea545edb852478de27eb65faa7da, type: 3}
+    icon: {fileID: 2800000, guid: ce46545eec09f4e479cdbdbe697af6ee, type: 3}
     type: 201
     parameter:
       name: Mayu/Feet/BPuppet
@@ -54,7 +54,7 @@ MonoBehaviour:
     - name: 
       icon: {fileID: 0}
   - name: Left
-    icon: {fileID: 2800000, guid: b39f5e4b3b076144cb0eaeff6324e86c, type: 3}
+    icon: {fileID: 2800000, guid: ce46545eec09f4e479cdbdbe697af6ee, type: 3}
     type: 201
     parameter:
       name: Mayu/Feet/LPuppet

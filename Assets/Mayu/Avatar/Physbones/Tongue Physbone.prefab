@@ -242,11 +242,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
-  config:
-    features:
-    - rid: 6798555787971526662
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
   somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6798555787971526662
   references:
     version: 2
     RefIds:

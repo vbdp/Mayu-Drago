@@ -55,7 +55,7 @@ BlendTree:
   m_Name: RG Rock&Roll Mouth
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: bbde7f4b90bf33646a1edbac370e2644, type: 2}
+    m_Motion: {fileID: 20600000, guid: 3bb2d1d489840aa43a3720ea513ac846, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1

@@ -55,7 +55,7 @@ BlendTree:
   m_Name: LG Point Pupils
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 648d07b8dbaa56d48a4870ae837b8ab8, type: 2}
+    m_Motion: {fileID: 20600000, guid: fc24d260d20ac3f4c82c2e3c9387b75d, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1

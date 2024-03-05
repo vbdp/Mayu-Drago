@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Gaze Control
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Pupils Size
+    icon: {fileID: 2800000, guid: 62ab7983b2e61774c88777041dad3e8e, type: 3}
+    type: 203
+    parameter:
+      name: Mayu/Pupils/Calculate
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Mayu/Pupils/Value
+    labels: []
+  - name: Gaze Infuence
+    icon: {fileID: 2800000, guid: 4f46529a6120c614dbab6dcbe78e87c8, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Gaze/Influence
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Gaze
+    icon: {fileID: 2800000, guid: a7478b36da24a6b41a2aff5a47487fa9, type: 3}
+    type: 103
+    parameter:
+      name: Mayu/Gaze/Calculate
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 98dad91e65835ab4280f5f4417292160, type: 2}
+    subParameters: []
+    labels: []

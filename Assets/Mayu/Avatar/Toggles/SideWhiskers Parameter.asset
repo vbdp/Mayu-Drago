@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SideWhiskers Parameter
   m_EditorClassIdentifier: 
   parameters:
-  - name: Mayu/SideWhiskers
+  - name: Mayu/WhiskersSide
     valueType: 2
     saved: 1
     defaultValue: 1

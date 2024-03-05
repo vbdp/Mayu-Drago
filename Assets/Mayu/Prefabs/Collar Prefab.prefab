@@ -1,0 +1,711 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &102115628887793082
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8349231397425727178}
+    m_Modifications:
+    - target: {fileID: 370766182898662239, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187978, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_Name
+      value: Physbones
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183962075602, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766184256287688, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766184762732837, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766184772146527, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 4754314068203223482}
+    - target: {fileID: 370766184772146527, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: ignoreTransforms.Array.data[0]
+      value: 
+      objectReference: {fileID: 3482372195834228901}
+    - target: {fileID: 370766184772146592, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 370766183962075603, guid: 164e0f7589a52e642b6ef4d55712c2e3, type: 3}
+    - {fileID: 370766182898662304, guid: 164e0f7589a52e642b6ef4d55712c2e3, type: 3}
+    - {fileID: 370766184256287689, guid: 164e0f7589a52e642b6ef4d55712c2e3, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 164e0f7589a52e642b6ef4d55712c2e3, type: 3}
+--- !u!4 &310731326400168499 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 102115628887793082}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5029441115791898584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6751251419275813011}
+    m_Modifications:
+    - target: {fileID: 8475762420116645495, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494962, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_Name
+      value: Collar Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 531b4088a4c16304980a16a4b06780cd, type: 3}
+--- !u!4 &3482372195834228901 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5029441115791898584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6171550307018526159
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8349231397425727178}
+    m_Modifications:
+    - target: {fileID: 8475762420116645495, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494962, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_Name
+      value: Collar Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 531b4088a4c16304980a16a4b06780cd, type: 3}
+--- !u!4 &2322227165554969266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6171550307018526159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8382558749984039201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -9026920833571236436, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6204386196791148110, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5751456512389764109, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bccfe600c671334408f8c3f0a2de692f, type: 2}
+    - target: {fileID: -5355233292482176869, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2994946363947609627, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2994946363947609627, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2994946363947609627, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -2994946363947609627, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -2994946363947609627, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2714567223955216480, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1925512576366570273, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1925512576366570273, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1925512576366570273, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7069847
+      objectReference: {fileID: 0}
+    - target: {fileID: -1925512576366570273, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7072289
+      objectReference: {fileID: 0}
+    - target: {fileID: -1925512576366570273, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -851111962417818299, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Collar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1530946708997044405, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033680631937187669, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810345655824764851, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 310731326400168499}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2322227165554969266}
+    - targetCorrespondingSourceObject: {fileID: -6204386196791148110, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3482372195834228901}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4403817273702737604}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8436214040367397568}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -262583692229254456}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8339099056694577745}
+    - targetCorrespondingSourceObject: {fileID: -2000112222136503681, guid: 8e687a315adc8a744ac553ef965313b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7312454153661897717}
+  m_SourcePrefab: {fileID: 100100000, guid: 8e687a315adc8a744ac553ef965313b0, type: 3}
+--- !u!4 &357201048795024721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8116010665450613872, guid: 8e687a315adc8a744ac553ef965313b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8382558749984039201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1183030817862374238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2000112222136503681, guid: 8e687a315adc8a744ac553ef965313b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8382558749984039201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1818360609 &7312454153661897717
+RotationConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183030817862374238}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Weight: 0.25
+  m_RotationAtRest: {x: -90, y: 0, z: -180}
+  m_RotationOffset: {x: -89.97203, y: 0, z: -180}
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_Active: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 357201048795024721}
+    weight: 1
+--- !u!1 &4599790086235374605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3782627367629331156, guid: 8e687a315adc8a744ac553ef965313b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8382558749984039201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4754314068203223482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5355233292482176869, guid: 8e687a315adc8a744ac553ef965313b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8382558749984039201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6751251419275813011 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6204386196791148110, guid: 8e687a315adc8a744ac553ef965313b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8382558749984039201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8349231397425727178 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8e687a315adc8a744ac553ef965313b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8382558749984039201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8689058953397083248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8e687a315adc8a744ac553ef965313b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8382558749984039201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4403817273702737604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689058953397083248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.751.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725836
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725836
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 6
+        linkMode: 0
+        propBone: {fileID: 4599790086235374605}
+        linkTo:
+        - useBone: 1
+          bone: 9
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        keepBoneOffsets2: 0
+        removeBoneSuffix: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 9
+        bonePathOnAvatar: 
+        fallbackBones: 
+--- !u!114 &-8436214040367397568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689058953397083248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.751.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725835
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725835
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 6ada5b324a707234ba31c260edbc359e|Assets/Mayu/Prefabs/Hoodie/Collar
+              Controller.controller
+            objRef: {fileID: 9100000, guid: 6ada5b324a707234ba31c260edbc359e, type: 2}
+          type: 5
+          ResetMePlease2: 0
+        menus: []
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 8c10c98383059234187f2a64fde2abe2|Assets/Mayu/Prefabs/Hoodie/Collar
+              Parameters.asset
+            objRef: {fileID: 11400000, guid: 8c10c98383059234187f2a64fde2abe2, type: 2}
+          ResetMePlease2: 0
+        smoothedPrms: []
+        globalParams:
+        - Mayu/AudioLink
+        - Mayu/Collar
+        - Mayu/Bell
+        - ScaleFactor
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        useSecurityForToggle: 0
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings:
+        - from: Armature Hoodie/Hips/Spine/Chest
+          to: Armature Collar
+          delete: 0
+          ResetMePlease2: 0
+        - from: Hoodie
+          to: Collar
+          delete: 0
+          ResetMePlease2: 0
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+--- !u!114 &-262583692229254456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689058953397083248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.751.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725834
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725834
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Bell
+        state:
+          actions: []
+          ResetMePlease2: 0
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 55c777b38ede46b47b6ff1e76eb2181b|Assets/Mayu/Prefabs/Hoodie/Icons/Bell.png
+          objRef: {fileID: 2800000, guid: 55c777b38ede46b47b6ff1e76eb2181b, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: Mayu/ Bell
+        separateLocal: 0
+        localState:
+          actions: []
+          ResetMePlease2: 0
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        transitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 1
+        globalParam: Mayu/Bell
+        holdButton: 0
+        invertRestLogic: 0
+--- !u!114 &-8339099056694577745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689058953397083248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.751.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725833
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725833
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Collar
+        state:
+          actions: []
+          ResetMePlease2: 0
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 29838edf33e624246b5adc2d90008259|Assets/Mayu/Prefabs/Hoodie/Icons/Collar.png
+          objRef: {fileID: 2800000, guid: 29838edf33e624246b5adc2d90008259, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: Mayu/Collar
+        separateLocal: 0
+        localState:
+          actions: []
+          ResetMePlease2: 0
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        transitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 1
+        globalParam: Mayu/Collar
+        holdButton: 0
+        invertRestLogic: 0

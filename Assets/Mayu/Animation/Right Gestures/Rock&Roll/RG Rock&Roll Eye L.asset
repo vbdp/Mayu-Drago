@@ -55,25 +55,56 @@ BlendTree:
   m_Name: RG Rock&Roll Eye L
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 237a6db87e0d8564281906953c9a6251, type: 2}
+    m_Motion: {fileID: 20600000, guid: 32c87e687236f6c4cba011b31ccfdc28, type: 2}
     m_Threshold: 0
-    m_Position: {x: -1, y: 0}
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: FXWeight
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 74998581901782141}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: FXWeight
+    m_Mirror: 0
+  m_BlendParameter: GestureLeft/Proxy/Idle
+  m_BlendParameterY: VelocityZ
+  m_MinThreshold: 0
+  m_MaxThreshold: 1
+  m_UseAutomaticThresholds: 0
+  m_NormalizedBlendValues: 0
+  m_BlendType: 0
+--- !u!206 &74998581901782141
+BlendTree:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Eye Blend
+  m_Childs:
+  - serializedVersion: 2
+    m_Motion: {fileID: 20600000, guid: eea104c0039151048bcd2f171e3e30c9, type: 2}
+    m_Threshold: 0
+    m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: FXWeight
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 20600000, guid: 5ebe6b803b3d7174ca07bdb0d338b8d4, type: 2}
-    m_Threshold: 0.5
+    m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: FXWeight
     m_Mirror: 0
-  m_BlendParameter: FXWeight
-  m_BlendParameterY: VelocityZ
+  m_BlendParameter: GestureLeft/Proxy/Idle
+  m_BlendParameterY: Blend
   m_MinThreshold: 0
-  m_MaxThreshold: 0.5
+  m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 4

@@ -13,16 +13,6 @@ MonoBehaviour:
   m_Name: Customize Mayu
   m_EditorClassIdentifier: 
   controls:
-  - name: Lock Gestures
-    icon: {fileID: 2800000, guid: 6ee5c6f5d944f1c44a652624f71fb732, type: 3}
-    type: 102
-    parameter:
-      name: Mayu/LockGestures
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
   - name: Tail Wag
     icon: {fileID: 2800000, guid: d5df884e5b7d960429141e37874d2683, type: 3}
     type: 203

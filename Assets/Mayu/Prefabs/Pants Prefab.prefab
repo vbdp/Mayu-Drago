@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5834400010968290065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_Name
+      value: Pants
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749901620396901084, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761708314861323176, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4337afdef834be6439a14d5e3a50e16d, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5303845498304367567}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1950746479359153454}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5909403907232444543}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4290396653101799315}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffb018c5d961b4148b839578a066f611,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1240089723362525937}
+  m_SourcePrefab: {fileID: 100100000, guid: ffb018c5d961b4148b839578a066f611, type: 3}
+--- !u!137 &946206750595453113 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6761708314861323176, guid: ffb018c5d961b4148b839578a066f611,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834400010968290065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2505835010246751735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8228481481743427302, guid: ffb018c5d961b4148b839578a066f611,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834400010968290065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6644667848482483776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ffb018c5d961b4148b839578a066f611,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834400010968290065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5303845498304367567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6644667848482483776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725832
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725832
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 6
+        linkMode: 0
+        propBone: {fileID: 8261587824073865076}
+        linkTo:
+        - useBone: 1
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        keepBoneOffsets2: 2
+        removeBoneSuffix: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+--- !u!114 &-1950746479359153454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6644667848482483776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725831
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725831
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers: []
+        menus: []
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 00ac67e85b26e314c8b0435c04060443|Assets/Mayu/Prefabs/Pants/Pants
+              Parameters.asset
+            objRef: {fileID: 11400000, guid: 00ac67e85b26e314c8b0435c04060443, type: 2}
+          ResetMePlease2: 0
+        smoothedPrms: []
+        globalParams:
+        - '*'
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        useSecurityForToggle: 0
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+--- !u!114 &-5909403907232444543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6644667848482483776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725829
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725829
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Belt
+        state:
+          actions:
+          - rid: 3147176310861725830
+          ResetMePlease2: 0
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1384f7e2d4ce53c4d8c95dae498aaecc|Assets/Mayu/Prefabs/Pants/Icons/Belt.png
+          objRef: {fileID: 2800000, guid: 1384f7e2d4ce53c4d8c95dae498aaecc, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+          ResetMePlease2: 0
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        transitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 1
+        globalParam: Mayu/Belt
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 3147176310861725830
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        blendShape: Hide Belt
+        blendShapeValue: 0
+        renderer: {fileID: 946206750595453113}
+        allRenderers: 0
+--- !u!114 &-4290396653101799315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6644667848482483776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725826
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725826
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Pants
+        state:
+          actions:
+          - rid: 3147176310861725827
+          - rid: 3147176310861725828
+          ResetMePlease2: 0
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 1
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7d24d169c61c5914eab7fc5a2540ceef|Assets/Mayu/Prefabs/Pants/Icons/Pants.png
+          objRef: {fileID: 2800000, guid: 7d24d169c61c5914eab7fc5a2540ceef, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+          ResetMePlease2: 0
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        transitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 1
+        useGlobalParam: 1
+        globalParam: Mayu/Pants
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 3147176310861725827
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 2505835010246751735}
+        mode: 0
+    - rid: 3147176310861725828
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        blendShape: Hide Warmers Upper Legs
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &1240089723362525937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6644667848482483776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725824
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725824
+      type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        action:
+          actions:
+          - rid: 3147176310861725825
+          ResetMePlease2: 0
+    - rid: 3147176310861725825
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        blendShape: Hide Belt
+        blendShapeValue: 100
+        renderer: {fileID: 946206750595453113}
+        allRenderers: 0
+--- !u!1 &8261587824073865076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6750616843342207899, guid: ffb018c5d961b4148b839578a066f611,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834400010968290065}
+  m_PrefabAsset: {fileID: 0}

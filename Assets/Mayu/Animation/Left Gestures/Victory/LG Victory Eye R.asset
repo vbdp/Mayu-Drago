@@ -55,7 +55,7 @@ BlendTree:
   m_Name: LG Victory Eye R
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 7edbea302ed5fcb4c8566ce22f6875c2, type: 2}
+    m_Motion: {fileID: 20600000, guid: 34a3b40f02b74614ea1c02b16e0b9e05, type: 2}
     m_Threshold: 0
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1

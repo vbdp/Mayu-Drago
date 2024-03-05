@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7088152649172247296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6786686194535119629}
+  - component: {fileID: -4052695243805649469}
+  - component: {fileID: -275995305816367465}
+  - component: {fileID: -6826928853705239355}
+  - component: {fileID: 8645587282823665347}
+  m_Layer: 0
+  m_Name: Locomotion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6786686194535119629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 989525858104244849}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4052695243805649469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672839
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672839
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 0b0dafcc669a54e45917d53d89484a7b|Assets/Mayu/Gogo/Base Mayu.controller
+            objRef: {fileID: 9100000, guid: 0b0dafcc669a54e45917d53d89484a7b, type: 2}
+          type: 0
+          ResetMePlease2: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: abe891e14c3d525499bf70622ad3e826|Assets/GoGo/GoLoco/ControllersWD/GoLocoAdditiveWD.controller
+            objRef: {fileID: 9100000, guid: abe891e14c3d525499bf70622ad3e826, type: 2}
+          type: 2
+          ResetMePlease2: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 0103712d0581d3046a9cb1b95411b8ec|Assets/GoGo/GoLoco/ControllersWD/GoLocoGestureWD.controller
+            objRef: {fileID: 9100000, guid: 0103712d0581d3046a9cb1b95411b8ec, type: 2}
+          type: 3
+          ResetMePlease2: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 4485bd5c6aea29e48bf1428a18876fcc|Assets/GoGo/GoLoco/ControllersWD/GoLocoActionWD.controller
+            objRef: {fileID: 9100000, guid: 4485bd5c6aea29e48bf1428a18876fcc, type: 2}
+          type: 4
+          ResetMePlease2: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 22aa2a9fb13faf540afa2a5c86efd0c4|Assets/GoGo/GoLoco/ControllersWD/GoLocoSittingWD.controller
+            objRef: {fileID: 9100000, guid: 22aa2a9fb13faf540afa2a5c86efd0c4, type: 2}
+          type: 6
+          ResetMePlease2: 0
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 162a302d400799d44b42de883aca93aa|Assets/Mayu/Gogo/Locomotion Mayu.asset
+            objRef: {fileID: 11400000, guid: 162a302d400799d44b42de883aca93aa, type: 2}
+          prefix: Locomotion
+          ResetMePlease2: 0
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 051d9c3c8f8b98e4c8256109ee67fe09|Assets/GoGo/GoLoco/MainMenu/Menu/SubMenu/GoMenuEmotes.asset
+            objRef: {fileID: 11400000, guid: 051d9c3c8f8b98e4c8256109ee67fe09, type: 2}
+          prefix: Body Controls/Emotes
+          ResetMePlease2: 0
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: e1b4115781386ae499182ce195d5c220|Assets/GoGo/GoLoco/MainMenu/Menu/SubMenu/GoMenuPose.asset
+            objRef: {fileID: 11400000, guid: e1b4115781386ae499182ce195d5c220, type: 2}
+          prefix: Body Controls/Poses
+          ResetMePlease2: 0
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 0fca3250af00ea240a263b0f859f17e8|Assets/Mayu/Gogo/GoParameters.asset
+            objRef: {fileID: 11400000, guid: 0fca3250af00ea240a263b0f859f17e8, type: 2}
+          ResetMePlease2: 0
+        smoothedPrms: []
+        globalParams:
+        - '*'
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        useSecurityForToggle: 0
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+--- !u!114 &-275995305816367465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672840
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672840
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Locomotion
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 82ab53a641de2f1448023168217721eb|Assets/GoGo/GoLoco/Icons/icon_Go_Loco.png
+          objRef: {fileID: 2800000, guid: 82ab53a641de2f1448023168217721eb, type: 3}
+--- !u!114 &-6826928853705239355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672841
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672841
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Controls/Emotes
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7b75c75cf3f40084a8db34fd0809ba6f|Assets/GoGo/GoLoco/Icons/icon_person_emotes.png
+          objRef: {fileID: 2800000, guid: 7b75c75cf3f40084a8db34fd0809ba6f, type: 3}
+--- !u!114 &8645587282823665347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.745.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672842
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672842
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Controls/Poses
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 801ba8dfb4af57e4ca9022eff971a455|Assets/GoGo/GoLoco/Icons/icon_person_pose.png
+          objRef: {fileID: 2800000, guid: 801ba8dfb4af57e4ca9022eff971a455, type: 3}
+--- !u!1001 &6437810830745071194
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6786686194535119629}
+    m_Modifications:
+    - target: {fileID: 6119321317262300200, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_Name
+      value: CuteDancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ebd23200b6620459b34f464630e20b, type: 3}
+--- !u!4 &989525858104244849 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6437810830745071194}
+  m_PrefabAsset: {fileID: 0}

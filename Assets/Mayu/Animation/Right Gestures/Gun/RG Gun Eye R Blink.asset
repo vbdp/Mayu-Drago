@@ -55,7 +55,7 @@ BlendTree:
   m_Name: RG Gun Eye R Blink
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: a60b59fbeafd5b54d9e8059efdea7035, type: 2}
+    m_Motion: {fileID: 20600000, guid: 25c4febe37bf43743bba720d40ab6656, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
