@@ -1,0 +1,706 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &370766183009542704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1170350547797115465}
+    m_Modifications:
+    - target: {fileID: 370766182898662238, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 3678631029311216859}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183453187978, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: m_Name
+      value: Physbones
+      objectReference: {fileID: 0}
+    - target: {fileID: 370766183962075601, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 800293940539671359}
+    - target: {fileID: 370766184256287687, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 1206841703414176082}
+    - target: {fileID: 370766184772146527, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 4168534165552102060}
+    - target: {fileID: 370766184772146527, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+        type: 3}
+      propertyPath: ignoreTransforms.Array.data[0]
+      value: 
+      objectReference: {fileID: 526845591}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 164e0f7589a52e642b6ef4d55712c2e3, type: 3}
+--- !u!4 &712424889 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 370766183453187977, guid: 164e0f7589a52e642b6ef4d55712c2e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 370766183009542704}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1708925714874295714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3085104973458933733, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: becebc0685e899049808fbb5c3727205, type: 2}
+    - target: {fileID: -2565790398904678552, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2565790398904678552, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2565790398904678552, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -2565790398904678552, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_Name
+      value: Hoodie
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480936433257673139, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 712424889}
+    - targetCorrespondingSourceObject: {fileID: -2487151247262424801, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 526845591}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1026862755}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1026862754}
+    - targetCorrespondingSourceObject: {fileID: 3969392454941090442, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3990784234102018140}
+  m_SourcePrefab: {fileID: 100100000, guid: f56936d9a40d76f4eb2c6d3320eefe88, type: 3}
+--- !u!4 &800293940539671359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7157233577218857315, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1170350547797115465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1206841703414176082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 506869091168812272, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1978834179769620723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1026862755
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978834179769620723}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 635db1c1fc207d443b1fa059ce21f7e6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1026862754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978834179769620723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+  config:
+    features:
+    - rid: 0
+    - rid: 1
+    - rid: 6798555517211639894
+    - rid: 6798555517211639895
+    - rid: 6798555505101897904
+  somethingIsBroken: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 5
+        linkMode: 0
+        propBone: {fileID: 7558436995030601053}
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        keepBoneOffsets2: 0
+        removeBoneSuffix: 
+        fallbackBones: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+    - rid: 1
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 635db1c1fc207d443b1fa059ce21f7e6|Assets/Mayu/Prefabs/Hoodie/Hoodie
+              Controller.controller
+            objRef: {fileID: 9100000, guid: 635db1c1fc207d443b1fa059ce21f7e6, type: 2}
+          type: 5
+          ResetMePlease2: 0
+        menus: []
+        prms: []
+        smoothedPrms: []
+        globalParams:
+        - Mayu/AudioLink
+        - Mayu/FemaleBreasts
+        - Mayu/Hoodie
+        - Mayu/Collar
+        - Mayu/Bell
+        - ScaleFactor
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        useSecurityForToggle: 0
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+    - rid: 6798555505101897904
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Hoodie
+        state:
+          actions:
+          - rid: 6798555505101897905
+          - rid: 6798555505101897907
+          ResetMePlease2: 0
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: cd2fe9e1e587b384eaffbdbed4d3c7f2|Assets/Mayu/Prefabs/Hoodie/Icons/Hoodie.png
+          objRef: {fileID: 2800000, guid: cd2fe9e1e587b384eaffbdbed4d3c7f2, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+          ResetMePlease2: 0
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        transitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 6798555505101897905
+      type: {class: FxFloatAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        name: Mayu/Hoodie
+        value: 1
+    - rid: 6798555505101897907
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        blendShape: Hide Warmers Upper Arms
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 6798555517211639894
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Bell
+        state:
+          actions:
+          - rid: 6798555517211639896
+          ResetMePlease2: 0
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 55c777b38ede46b47b6ff1e76eb2181b|Assets/Mayu/Prefabs/Hoodie/Icons/Bell.png
+          objRef: {fileID: 2800000, guid: 55c777b38ede46b47b6ff1e76eb2181b, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+          ResetMePlease2: 0
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        transitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 6798555517211639895
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Collar
+        state:
+          actions:
+          - rid: 6798555517211639897
+          ResetMePlease2: 0
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 29838edf33e624246b5adc2d90008259|Assets/Mayu/Prefabs/Hoodie/Icons/Collar.png
+          objRef: {fileID: 2800000, guid: 29838edf33e624246b5adc2d90008259, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+          ResetMePlease2: 0
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        transitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionStateOut:
+          actions: []
+          ResetMePlease2: 0
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+    - rid: 6798555517211639896
+      type: {class: FxFloatAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        name: Mayu/Bell
+        value: 1
+    - rid: 6798555517211639897
+      type: {class: FxFloatAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        name: Mayu/Collar
+        value: 1
+--- !u!1 &2351247934931978024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3969392454941090442, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1818360609 &3990784234102018140
+RotationConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2351247934931978024}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Weight: 0.25
+  m_RotationAtRest: {x: -90, y: 0, z: -180}
+  m_RotationOffset: {x: -89.97203, y: 0, z: -180}
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_Active: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 8277949797025521837}
+    weight: 1
+--- !u!4 &3678631029311216859 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6576859040128697991, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4168534165552102060 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5877539053857726706, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5389841167000798397 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2487151247262424801, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7558436995030601053 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -48514281051477761, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8277949797025521837 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7302161943096575247, guid: f56936d9a40d76f4eb2c6d3320eefe88,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708925714874295714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8475762420835893738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5389841167000798397}
+    m_Modifications:
+    - target: {fileID: 8475762421160494962, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_Name
+      value: Collar Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018477438
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000008940696
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 531b4088a4c16304980a16a4b06780cd, type: 3}
+--- !u!4 &526845591 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8475762421160494973, guid: 531b4088a4c16304980a16a4b06780cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 8475762420835893738}
+  m_PrefabAsset: {fileID: 0}

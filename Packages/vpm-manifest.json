@@ -1,0 +1,63 @@
+{
+  "dependencies": {
+    "com.vrchat.avatars": {
+      "version": "3.5.1"
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.28"
+    },
+    "com.llealloo.audiolink": {
+      "version": "1.3.0"
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.809.0"
+    },
+    "com.poiyomi.toon": {
+      "version": "8.1.167"
+    },
+    "adjerry91.vrcft.templates": {
+      "version": "5.3.4"
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.8.8"
+    }
+  },
+  "locked": {
+    "com.vrchat.avatars": {
+      "version": "3.5.1",
+      "dependencies": {
+        "com.vrchat.base": "3.5.1"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.5.1",
+      "dependencies": {}
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.28",
+      "dependencies": {}
+    },
+    "com.llealloo.audiolink": {
+      "version": "1.3.0",
+      "dependencies": {}
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.809.0",
+      "dependencies": {}
+    },
+    "com.poiyomi.toon": {
+      "version": "8.1.167",
+      "dependencies": {}
+    },
+    "adjerry91.vrcft.templates": {
+      "version": "5.3.4",
+      "dependencies": {}
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.8.8",
+      "dependencies": {
+        "com.vrchat.avatars": "3.2.x || 3.3.x || 3.4.x || 3.5.x"
+      }
+    }
+  }
+}

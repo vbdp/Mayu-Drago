@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Feet Mayu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Right
+    icon: {fileID: 2800000, guid: 42d6a55d51f3d9a4785b6f84ec25e779, type: 3}
+    type: 201
+    parameter:
+      name: Mayu/Feet/RPuppet
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Mayu/FloatX
+    - name: Mayu/FloatY
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+  - name: Both
+    icon: {fileID: 2800000, guid: 481eea545edb852478de27eb65faa7da, type: 3}
+    type: 201
+    parameter:
+      name: Mayu/Feet/BPuppet
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Mayu/FloatX
+    - name: Mayu/FloatY
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+  - name: Left
+    icon: {fileID: 2800000, guid: b39f5e4b3b076144cb0eaeff6324e86c, type: 3}
+    type: 201
+    parameter:
+      name: Mayu/Feet/LPuppet
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Mayu/FloatX
+    - name: Mayu/FloatY
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}

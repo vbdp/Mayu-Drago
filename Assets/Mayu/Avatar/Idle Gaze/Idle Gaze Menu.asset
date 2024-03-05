@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Idle Gaze Menu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Jito
+    icon: {fileID: 2800000, guid: 2a04e389a59a19d4ea4ed1631b46f069, type: 3}
+    type: 102
+    parameter:
+      name: Idle/Value
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Hostile
+    icon: {fileID: 2800000, guid: 83c3f12e255c4ba4bbb65ebd99a3eab4, type: 3}
+    type: 102
+    parameter:
+      name: Idle/Value
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Howawa
+    icon: {fileID: 2800000, guid: d3879146a258d8943bc54ec557488891, type: 3}
+    type: 102
+    parameter:
+      name: Idle/Value
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Wail
+    icon: {fileID: 2800000, guid: 5d5de7f4a6a7c3a4eaf00d5dd8372761, type: 3}
+    type: 102
+    parameter:
+      name: Idle/Value
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Wink
+    icon: {fileID: 2800000, guid: 86d4f9e6e97b1884789234c13ce93aa0, type: 3}
+    type: 102
+    parameter:
+      name: Idle/Value
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Strength
+    icon: {fileID: 2800000, guid: 03d2face5c0022f47b1a64f9cf6399bb, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Idle/Strength
+    labels: []

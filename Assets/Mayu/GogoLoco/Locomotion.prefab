@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7088152649172247296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6786686194535119629}
+  - component: {fileID: 6987057975804843208}
+  m_Layer: 0
+  m_Name: Locomotion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6786686194535119629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 989525858104244849}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6987057975804843208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+  config:
+    features:
+    - rid: 6798555766660268378
+    - rid: 6798555766660268383
+    - rid: 6798555766660268388
+    - rid: 6798555766660268389
+    - rid: 6798555766660268390
+  somethingIsBroken: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 6798555766660268378
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 3107fea84e6bf2e448424b7578fb7e2a|Assets/Mayu/GogoLoco/ControllersWD/GoLocoBaseWDMayu.controller
+            objRef: {fileID: 9100000, guid: 3107fea84e6bf2e448424b7578fb7e2a, type: 2}
+          type: 0
+          ResetMePlease2: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: abe891e14c3d525499bf70622ad3e826|Assets/Mayu/GogoLoco/ControllersWD/GoLocoAdditiveWD.controller
+            objRef: {fileID: 9100000, guid: abe891e14c3d525499bf70622ad3e826, type: 2}
+          type: 2
+          ResetMePlease2: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 0103712d0581d3046a9cb1b95411b8ec|Assets/Mayu/GogoLoco/ControllersWD/GoLocoGestureWD.controller
+            objRef: {fileID: 9100000, guid: 0103712d0581d3046a9cb1b95411b8ec, type: 2}
+          type: 3
+          ResetMePlease2: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 4ab22f73db5e4c84cad9061a24a5bc2d|Assets/Mayu/GogoLoco/ControllersWD/GoLocoActionWDMayu.controller
+            objRef: {fileID: 9100000, guid: 4ab22f73db5e4c84cad9061a24a5bc2d, type: 2}
+          type: 4
+          ResetMePlease2: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 22aa2a9fb13faf540afa2a5c86efd0c4|Assets/Mayu/GogoLoco/ControllersWD/GoLocoSittingWD.controller
+            objRef: {fileID: 9100000, guid: 22aa2a9fb13faf540afa2a5c86efd0c4, type: 2}
+          type: 6
+          ResetMePlease2: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: c6e2190827640e144938baadbf01ee8e|Assets/Mayu/GogoLoco/ControllersWD/GoLocoTPoseWD.controller
+            objRef: {fileID: 9100000, guid: c6e2190827640e144938baadbf01ee8e, type: 2}
+          type: 7
+          ResetMePlease2: 0
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 162a302d400799d44b42de883aca93aa|Assets/Mayu/Menu/Locomotion Mayu.asset
+            objRef: {fileID: 11400000, guid: 162a302d400799d44b42de883aca93aa, type: 2}
+          prefix: Locomotion
+          ResetMePlease2: 0
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: e883eb8a7272a7746b60359d493b587c|Assets/Mayu/GogoLoco/GoMenuEmotes.asset
+            objRef: {fileID: 11400000, guid: e883eb8a7272a7746b60359d493b587c, type: 2}
+          prefix: Body Controls/Emotes
+          ResetMePlease2: 0
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 420c845d66b602f49abd8a82497d6e6c|Assets/Mayu/Menu/Poses Mayu.asset
+            objRef: {fileID: 11400000, guid: 420c845d66b602f49abd8a82497d6e6c, type: 2}
+          prefix: Body Controls/Poses
+          ResetMePlease2: 0
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 1162128bd63cf4d4997c0b25a592567b|Assets/Mayu/CuteDancer/Dances.asset
+            objRef: {fileID: 11400000, guid: 1162128bd63cf4d4997c0b25a592567b, type: 2}
+          prefix: Body Controls/Dances
+          ResetMePlease2: 0
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 020d50129b7b8b843a1522938782d099|Assets/Mayu/GogoLoco/GoParameters.asset
+            objRef: {fileID: 11400000, guid: 020d50129b7b8b843a1522938782d099, type: 2}
+          ResetMePlease2: 0
+        smoothedPrms: []
+        globalParams:
+        - '*'
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        useSecurityForToggle: 0
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+    - rid: 6798555766660268383
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Locomotion
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 82ab53a641de2f1448023168217721eb|Assets/Mayu/GogoLoco/Icons/icon_Go_Loco.png
+          objRef: {fileID: 2800000, guid: 82ab53a641de2f1448023168217721eb, type: 3}
+    - rid: 6798555766660268388
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Controls/Emotes
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7b75c75cf3f40084a8db34fd0809ba6f|Assets/Mayu/GogoLoco/Icons/icon_person_emotes.png
+          objRef: {fileID: 2800000, guid: 7b75c75cf3f40084a8db34fd0809ba6f, type: 3}
+    - rid: 6798555766660268389
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Controls/Poses
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 801ba8dfb4af57e4ca9022eff971a455|Assets/Mayu/GogoLoco/Icons/icon_person_pose.png
+          objRef: {fileID: 2800000, guid: 801ba8dfb4af57e4ca9022eff971a455, type: 3}
+    - rid: 6798555766660268390
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Controls/Dances
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7ed33a9777353974482d46a7590219c3|Assets/Mayu/GogoLoco/Icons/IconVRC/Emote_Dance.png
+          objRef: {fileID: 2800000, guid: 7ed33a9777353974482d46a7590219c3, type: 3}
+--- !u!1001 &6437810830745071194
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6786686194535119629}
+    m_Modifications:
+    - target: {fileID: 6119321317262300200, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_Name
+      value: CuteDancer Receivers
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ebd23200b6620459b34f464630e20b, type: 3}
+--- !u!4 &989525858104244849 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6119321317262300203, guid: 60ebd23200b6620459b34f464630e20b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6437810830745071194}
+  m_PrefabAsset: {fileID: 0}
