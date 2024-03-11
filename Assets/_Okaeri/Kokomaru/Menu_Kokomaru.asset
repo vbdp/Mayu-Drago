@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Menu_Kokomaru
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Throw LifeKube
+    icon: {fileID: 2800000, guid: 951138ae77d464a459fa652a8e5ac136, type: 3}
+    type: 102
+    parameter:
+      name: KKM/Glob/Toggled
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Commands
+    icon: {fileID: 2800000, guid: 75b48c50ae088294c916f6f2f26eecb2, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ce7e590645ec3664db9a4ccecced8ce7, type: 2}
+    subParameters: []
+    labels: []
+  - name: Spells
+    icon: {fileID: 2800000, guid: eafb24d3d093c6f4bafaa57f0f5ee9d8, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 9014e0fa8b7be724d8e312efdc113000, type: 2}
+    subParameters: []
+    labels: []
+  - name: Market
+    icon: {fileID: 2800000, guid: 2462d38d3bd7555469fc278c202b7a4f, type: 3}
+    type: 103
+    parameter:
+      name: KKM/Market/Open
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: b3a743c6ec35da846a279679903cf9c5, type: 2}
+    subParameters: []
+    labels: []
+  - name: Mute
+    icon: {fileID: 2800000, guid: 51bd662a1aa5d0e409fbb02f42f24dc1, type: 3}
+    type: 102
+    parameter:
+      name: KKM/Glob/Mute
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Toy
+    icon: {fileID: 2800000, guid: b61530ee84f9a4b488f8ee3a5aef2e45, type: 3}
+    type: 102
+    parameter:
+      name: KKM/Glob/Toy
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Position
+    icon: {fileID: 2800000, guid: d13170881342e534499c9842af6a172f, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: KKM/Glob/Position
+    labels: []

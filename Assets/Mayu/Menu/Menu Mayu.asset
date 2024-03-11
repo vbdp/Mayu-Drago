@@ -73,3 +73,13 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: d5d433390a7c4264baa8aac44573ebd4, type: 2}
     subParameters: []
     labels: []
+  - name: Kokomaru
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 69a7e9377cefa524d8c65c7fec4fc148, type: 2}
+    subParameters: []
+    labels: []

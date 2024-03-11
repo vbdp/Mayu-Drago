@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Kokomaru_MarketP2
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Next
+    icon: {fileID: 2800000, guid: d24f9271491877e4898fcac36773cb2c, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Dark Fruit
+    icon: {fileID: 2800000, guid: 2462d38d3bd7555469fc278c202b7a4f, type: 3}
+    type: 102
+    parameter:
+      name: KKM/Market/ItemNum
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Light Fruit
+    icon: {fileID: 2800000, guid: 2462d38d3bd7555469fc278c202b7a4f, type: 3}
+    type: 102
+    parameter:
+      name: KKM/Market/ItemNum
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Koko Egg
+    icon: {fileID: 2800000, guid: 2462d38d3bd7555469fc278c202b7a4f, type: 3}
+    type: 102
+    parameter:
+      name: KKM/Market/ItemNum
+    value: 254
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Previous
+    icon: {fileID: 2800000, guid: daaf321612fb0fc4a80d634377af9753, type: 3}
+    type: 103
+    parameter:
+      name: KKM/Market/Open
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: b3a743c6ec35da846a279679903cf9c5, type: 2}
+    subParameters: []
+    labels: []
